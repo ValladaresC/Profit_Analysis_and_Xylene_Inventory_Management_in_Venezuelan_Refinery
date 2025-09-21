@@ -1,14 +1,14 @@
 # Análisis de Rentabilidad y Gestión de Inventarios de Xileno en Refinería Venezolana
 
-##Resumen
+## Resumen
 
 Este proyecto abordó el problema de un excedente de inventario de Xileno en una refinería venezolana, que inmovilizaba capital y generaba riesgos operativos. Se demostró que un descuento estratégico del 6% permitiría liquidar el 97% del inventario sobrante de 500 galones mensuales. Esta estrategia no solo resolvería el problema de inventario, sino que también aseguraría un margen de ganancia del 14.89%, superando la meta financiera del 12% establecida por la empresa. A pesar de que descuentos mayores pueden reducir el margen de ganancia, una aplicación precisa y un entendimiento de la demanda permiten maximizar la rentabilidad mientras se optimiza la gestión del inventario.
 
-##Problema de negocio
+## Problema de negocio
 
 Una de las principales refinerías de Venezuela distribuye combustibles (Gasolina, Gasoil, Querosén), lubricantes (aceite hidráulico y de motor) y petroquímicos (Xileno) a todo el país mediante camiones cisternas y tuberías. Actualmente presenta un excedente de Xileno en sus inventarios, lo cual representa capital inmovilizado y riesgos operativos. La refinería necesita liquidar este stock de manera urgente a través de la distribución por tubería. El desafío principal es hacerlo sin que el margen de ganancia de esta operación caiga por debajo del 12%, una métrica financiera clave para la empresa.
 
-##Metodología
+## Metodología
 
 La fase inicial consistió en la preparación y limpieza de los datos. Posteriormente se crearon variables claves para el análisis de la rentabilidad e inventarios de producto, entre ellas precio de venta (sales_price), ganancias (profit) y descuento (discount) a partir de los datos de origen. 
 
@@ -19,12 +19,12 @@ La tercera fase se concentró en analizar los galones de Xileno vendidos mediant
 ![esquema_metodologia](https://github.com/user-attachments/assets/ee89fd40-53dc-4a6c-b2df-1bea1fb71a6e)
 
 
-##Skills:
+## Skills:
 
 - Python (Pandas, Matplolib, Seaborn)
 - ERP: SAP para extracción de dataset.
 
-##Resultados y Recomendaciones
+## Resultados y Recomendaciones
 
 - El Xileno ocupa el 3er lugar en volumen de combustibles vendidos (693,5 MGal) y el primer lugar en ventas totales en dólares (29.2 MM$) en la refinería con respecto a los demás productos. Además, es el producto con mayores ventas en los 3 principales consumidores (comercial, domestico e industrial) y en el tipo de entrega (por tubería y camiones cisternas).
 - No se encontró un patrón o tendencia definida de aplicación de descuentos, la refinería tiene sus políticas de acuerdo a la oferta y demanda del mercado para establecer porcentajes de descuento en los productos.
@@ -36,7 +36,7 @@ La tercera fase se concentró en analizar los galones de Xileno vendidos mediant
 - Con un 6% de descuento el margen de ganancia sería de 14.89%, mayor al 12% requerido por la empresa. 
 - Se recomienda: comenzar aplicando el descuento de acuerdo a las tendencias obtenidas en la segmentación por regiones y por cliente.
 
-##Próximos pasos: 
+## Próximos pasos: 
 - Segmentar otros productos para observar comportamientos con respecto a los descuentos.
 - Realizar un modelo de predicción con un equipo de científicos de datos.
 
