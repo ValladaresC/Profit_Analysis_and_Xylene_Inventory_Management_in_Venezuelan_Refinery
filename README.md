@@ -1,3 +1,14 @@
+# Profit Analysis and Xylene Inventory Management in Venezuelan Refinery 
+
+The refinery had a significant business problem: an excess of Xylene inventory, which immobilized capital and created operational risks. It was crucial to liquidate that stock of 500 gallons per month without the profit margin decreasing by more than 12%.
+
+My task was to analyze the xylene market performance and propose an effective discount strategy to liquidate the excess of inventory and maintain the profit margin above 12%.
+
+I used Python for cleaning, exploring and visualizing data. I focused on the relationship between the discounts and the volume of Xylene sold. I segmented the data by region and type of customer to identify purchasing patterns. Then, I made an elastic calculation to estimate how different discount percentages would affect the sales volume. 
+
+It was determined that 6% discount would be the most effective strategy, as it would result in the sale of 5,808 gallons of Xylene compared to a 5% discount. This represents 97% liquidation of the excess inventory (that is 484 gallons). Additionally, with this discount, the profit margin obtained was 14.89%, which is above the 12% established by the company.
+
+
 # Análisis de Rentabilidad y Gestión de Inventarios de Xileno en Refinería Venezolana
 
 ## Resumen
